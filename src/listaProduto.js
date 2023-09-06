@@ -22,7 +22,7 @@ export const listaProdutos = [
         id: 4,
         nome: 'MousePad Havic MP847',
         preco: 35,
-        // imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAyGMFRrz-v8dVouYm0QdrjZpeTBMPPxWUS_IZ7_QfWWd7aLGYAaqeFptEHH9dRXNOqE&usqp=CAU"
+        //imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAyGMFRrz-v8dVouYm0QdrjZpeTBMPPxWUS_IZ7_QfWWd7aLGYAaqeFptEHH9dRXNOqE&usqp=CAU"
     },
     {
         id: 5,
