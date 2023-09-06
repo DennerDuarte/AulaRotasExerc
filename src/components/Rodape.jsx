@@ -1,5 +1,11 @@
 export default function Rodape() {
   return (
-    <div>Rodape</div>
+    <footer>
+        <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#"></a>Vercel</li>
+        </ul>
+
+    </footer>
   )
 }
