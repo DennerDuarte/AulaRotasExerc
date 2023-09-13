@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+
 
 import Home from './routes/Home/index.jsx'
 import Error from './routes/Error/index.jsx'
@@ -24,14 +24,9 @@ const route = createBrowserRouter([
           element: <Produtos/>
         },
         {
-          path:'/produtos/editar/:id',
+          path:'/editar/produtos/:id',
           element: <EditarProdutos/>
         },
-        {
-          path: "/antiga",
-          element: <Navigate to="/"/>
-        }
-        
       ]
 
     }

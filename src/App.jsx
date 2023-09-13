@@ -7,9 +7,13 @@ function App(){
 
   return(
     <>
+      <div className='container'>
+   
     <Cabecalho/>
     <Outlet/>
     <Rodape/>
+
+      </div>
     </>
   )
 }
