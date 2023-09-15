@@ -8,6 +8,7 @@ import Error from './routes/Error/index.jsx'
 import EditarProdutos from './routes/EditarProdutos/index.jsx'
 import Produtos from './routes/Produtos/index.jsx'
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
+import AdicionarProtudo from './routes/AdicionarProduto/index.jsx'
 
 const route = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const route = createBrowserRouter([
           path:'/editar/produtos/:id',
           element: <EditarProdutos/>
         },
+        {
+          path:'/adicionar/produtos',
+          element: <AdicionarProtudo/>
+        }
       ]
 
     }

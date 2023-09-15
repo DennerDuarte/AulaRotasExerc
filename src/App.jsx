@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import './App.css';
+import style from'./App.module.css';
 import Cabecalho from './components/Cabecalho';
 import Rodape from './components/Rodape';
 
@@ -7,7 +7,7 @@ function App(){
 
   return(
     <>
-      <div className='container'>
+      <div className={style.container}>
    
     <Cabecalho/>
     <Outlet/>
