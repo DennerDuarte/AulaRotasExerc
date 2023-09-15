@@ -1,20 +1,21 @@
 header {
-  display: flex; width: 100vw;
+  display: flex; width: 100%;
   justify-content: center; align-items: center;
-  height: 8vh; background-color: rebeccapurple;
+  height: 10vh; background-color: wheat;
 
-  & a{color: white; font-size: 1.5em; padding: 15px;}
+  & a{color: black; font-size: 1.5em; padding: 60px;}
 }
 
 main {
-  display: flex; width: 100vw; flex-direction: column;
+  display: flex; width: auto; flex-direction: column;
   height: 70vh; align-items: center; justify-content: center;
 }
 
 
 footer {
-  display: flex; width: 100vw; justify-content: center;
-  align-items: center; height: 5vh;
-  background-color: rebeccapurple;
+  display: flex; width: 100%; justify-content: center;
+  align-items: center; height: 7vh;
+  background-color: wheat; color: black;
 }
+
 

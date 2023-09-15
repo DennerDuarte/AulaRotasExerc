@@ -1,6 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { listaProdutos } from "../../listaProduto";
 import { useState } from "react";
+import style from "../Produtos.module.css"
 
 export default function EditarProdutos() {
   document.title = "Editar Produtos";
@@ -51,7 +52,7 @@ export default function EditarProdutos() {
 
   return (
     <>
-      <h1>Editar Produtos</h1>
+      <h1 className={style.h1}>Editar Produtos</h1>
 
       <div>
         <form onSubmit={handleSubmit}>

@@ -15,7 +15,7 @@ export default function Produtos() {
   return (
 
     <>
-      <h1>Lista de Produtos</h1>
+      <h1 className={style.h1}>Lista de Produtos</h1>
 
       <div>
         <table className={style.tblEstilo}>
@@ -43,7 +43,7 @@ export default function Produtos() {
             ))}
           </tbody>
         </table>
-        <div>
+        <div className={style.button}>
               <Link to='/adicionar/produtos'>
                 <button>
                   Adicionar Produto

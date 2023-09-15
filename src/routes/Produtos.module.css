@@ -1,27 +1,28 @@
 
 .tblEstilo{
     border-collapse: collapse;
-    border: 2px solid #ccc;
+    border: 2px solid wheat;
     margin: 0 auto;
+    color: black;
 
     .tblHeader{
-        background-color: #a8a7a5;
+        background-color: wheat;
         & th{
-            border: 2px solid #ccc;
+            border: 2px solid black;
             text-align: center;
         }
     }
 
     .tblRow{
-        background-color: #fff8dc;
+        background-color: wheat;
         
         &:hover{
-            background-color: #6b7171;
-            color: #fff;
+            background-color: gray;
+            color: black;
         }
 
         & td{
-            border: 2px solid #ccc;
+            border: 2px solid black;
             &:first-child{
                 text-align: center;
             }
@@ -35,6 +36,39 @@
         }
 
     }
+    
+}
 
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    justify-content: center;
+    padding: auto;
+    width: fit-content;
+    margin: 1% auto;
+}
+
+.home{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 20px
+}
+
+.promo{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.txtPromo{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
