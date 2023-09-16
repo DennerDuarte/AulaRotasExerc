@@ -5,7 +5,7 @@ import App from './App.jsx'
 
 import Home from './routes/Home/index.jsx'
 import Error from './routes/Error/index.jsx'
-import EditarProdutos from './routes/EditarProdutos/index.jsx'
+import VizualizarProdutos from './routes/VizualizarProdutos/index.jsx'
 import Produtos from './routes/Produtos/index.jsx'
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import AdicionarProtudo from './routes/AdicionarProduto/index.jsx'
@@ -25,8 +25,8 @@ const route = createBrowserRouter([
           element: <Produtos/>
         },
         {
-          path:'/editar/produtos/:id',
-          element: <EditarProdutos/>
+          path:'/vizualizar/produtos/:id',
+          element: <VizualizarProdutos/>
         },
         {
           path:'/adicionar/produtos',

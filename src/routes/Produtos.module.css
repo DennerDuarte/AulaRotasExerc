@@ -72,3 +72,19 @@
     justify-content: center;
 }
 
+
+.image{
+min-width: 25px;
+max-width: 35px;
+margin: 0 40%;
+justify-content: center;
+text-align: center;
+}
+
+.vizuImages{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+}

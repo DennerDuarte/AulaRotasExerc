@@ -26,7 +26,7 @@ export default function Produtos() {
               <th>NOME</th>
               <th>DESCRIÇÃO</th>
               <th>PREÇO</th>
-              <th>EDITAR</th>
+              <th>VIZUALIZAR</th>
             </tr>
           </thead>
 
@@ -38,7 +38,7 @@ export default function Produtos() {
                   <td>{item.nome}</td>
                   <td>{item.desc}</td>
                   <td>{item.preco}</td>
-                  <td><Link to={`/editar/produtos/${item.id}`} >EDITAR</Link></td>      
+                  <td><Link to={`/vizualizar/produtos/${item.id}`} >VIZUALIZAR</Link></td>      
               </tr>
             ))}
           </tbody>
